@@ -1,0 +1,24 @@
+Dissipative particle dynamics refers to a particlebased numerical method 
+in which the dynamicsof particles that interact through conservative, 
+dissipative, and random forces are computed. The method is coarse-grained 
+molecular dynamicsand has the ability to capture flow at mesoscopic scales,
+i.e., those scales that lie between microscopic and macroscopic ones.  
+
+This DPD package is an open-source code, distributed freely under the terms 
+of the GNU Public License (GPL).
+-----------------------------------------------------------------------
+The package distribution includes the following files and directories:
+
+README			   this file
+LICENSE			   the GNU General Public License (GPL)
+src			       source files
+data               the initial parameters and output data
+Fortcompile.sh     the shellscript to compile the fortran code in src
+C++compile.sh      the shellscript to compile the C++ code in src/preprocess_c++
+run.sh             the runing shellscript to start your case simulation
+
+Good luck with your DPD simulations!
+
+If you have any bugs, conecting me by luckti@qq.com
+
+

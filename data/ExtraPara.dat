@@ -1,0 +1,11 @@
+RDF parameter:
+deltaQ   RDFstepSample
+0.05      10000
+Grid cell length
+0.2
+Diffusivity parameter:
+intervalStep grossStep
+20           10000
+Barostat:
+JStep BStep Density  JPress riseTime lpercent(<1 and >0)
+20000  1    -6.0     150.0     10.0    0.0
